@@ -22,12 +22,10 @@ SuperHero superHero2 = new();
 superHero2.Name = "Peter Parker";
 superHero2.Alias = "SpiderMan";
 
-
 SuperHero superHero3 = new() { 
     Alias = "Deadpool", 
     Name = "Wade Wilson" 
 };
-
 
 Console.WriteLine($"{superHero1.Alias},{superHero1.Name}");
 Console.WriteLine($"{superHero2.Alias},{superHero2.Name}");
