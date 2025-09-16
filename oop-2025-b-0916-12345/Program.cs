@@ -30,3 +30,6 @@ SuperHero superHero3 = new() {
 Console.WriteLine($"{superHero1.Alias},{superHero1.Name}");
 Console.WriteLine($"{superHero2.Alias},{superHero2.Name}");
 Console.WriteLine($"{superHero3.Alias},{superHero3.Name}");
+
+Console.WriteLine($"{superHero1.ToString()}");
+Console.WriteLine($"{superHero2}");

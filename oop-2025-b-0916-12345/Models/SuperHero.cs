@@ -10,5 +10,11 @@ namespace oop_2025_b_0916_12345.Models
     {
         public string Name { get; set; } = String.Empty;
         public string Alias { get; set; } = String.Empty;
+
+        public override string ToString()
+        {
+            return $"{Name}:{Alias}";
+        }
+
     }
 }
