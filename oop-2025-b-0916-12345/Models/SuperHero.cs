@@ -13,7 +13,7 @@ namespace oop_2025_b_0916_12345.Models
 
         public override string ToString()
         {
-            return $"{Name}:{Alias}";
+            return $"{Name} : {Alias}";
         }
 
     }
